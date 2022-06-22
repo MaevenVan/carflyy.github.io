@@ -1,0 +1,124 @@
+$light-blue: #F2F7FC;
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    &-item{
+        margin-left: 50px;
+        margin-top: 57px;
+        margin-bottom: 57px;
+    }
+    &-link{
+        color: #868FA4;
+        text-decoration: none;
+        font-family: 'proxima-nova', sans-serif;
+        font-size: 24px;
+    }
+}
+.nav2{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    &-item{
+        margin-left: 30px;
+        margin-top: 57px;
+        margin-bottom: 57px;
+    }
+    &-link{
+        color: #191919;
+        text-decoration: none;
+        font-family: 'proxima-nova', sans-serif;
+        font-size: 24px;
+    }
+}
+.main{
+    
+    display: flex;
+    padding-left: 0;
+    background-image: url(../img/Vector.png);
+    background-color: $light-blue;
+    height: 336px;
+    width: 100%;
+    &-item{
+        margin-left: 50px;
+        margin-top: 56px;
+        margin-bottom: 73px;
+    }
+    .parking{
+        &-description{
+            font-family: 'proxima-nova', sans-serif;
+            font-size: 62px;
+            color: #191919;
+            width: 693px;
+            height: 222px;
+            left: 260px;
+            top: 219px;
+        }
+    }
+}
+.airport{
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 400px;
+}
+.mainright{
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 500px;
+    height: 434px;
+    width: 834px;
+}
+.vec{
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    margin-top: 336px;
+}
+.maintable{
+    display: flex;
+    justify-content: space-between;
+    &-tr{
+        height: 123px;
+        width: 310px;      
+    }
+    &-days{
+        margin-right: 30px;
+        margin-bottom: 0px;
+        font-family: 'proxima-nova', sans-serif;
+        font-size: 24px;
+        color: #579D45;
+        line-height: 32px;
+    }
+    &-price{
+        margin-right: 30px;
+        margin-top: 8px;
+        font-family: 'proxima-nova', sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+        color: #191919;
+    }
+    &-rec{
+        padding-right: 30px;
+    }
+}
